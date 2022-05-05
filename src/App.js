@@ -6,6 +6,7 @@ import Header11 from './Header11';
 import Header22 from './Header22';
 import Main from './Main';
 import New from './New';
+import About from './About';
 function App() {
   return (
     <>
@@ -14,12 +15,13 @@ function App() {
       <Header11 />
       <Footer1 />
       <Footer2 />
+      <Main />
     </div>
    <Routes>
 
      <Route path='/Main' element={<Main />}/>
      <Route path='/New' element={<New />}/>
-
+     <Route path='/About' element={<About />}/>
   </Routes> 
 </>
   );

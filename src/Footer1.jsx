@@ -1,4 +1,7 @@
 import React from "react";
+let aboutus = () =>{
+  alert('/About.jsx');
+}
 function Footer1 () {
 return  ( 
 
@@ -6,7 +9,7 @@ return  (
      
     <div className='conteiner1'>
        <p1 className='fff'><h2>Компания</h2></p1>
-      <p2 className='fff'>O Chocolife.me</p2>
+      <button onClick={aboutus} className='fff'><a href="/About">O Chocolife.me</a></button>
       <p3 className='fff'>Пресса о нас</p3>
       <p4 className='fff'>Контакты</p4>
     </div>
